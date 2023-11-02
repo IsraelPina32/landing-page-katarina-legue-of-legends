@@ -1,0 +1,145 @@
+@media(max-width: 2560px){
+    .conteudo-modal {
+      width: 2560px;
+    }
+}
+@media(max-width: 1440px){
+  .conteudo-modal {
+    width: 1440px;
+   }
+}
+
+@media(max-width: 1024px){
+  .conteudo-modal {
+    width: 1024px;
+   }
+}
+
+@media (max-width: 768px){
+     .contanier .home .home-container p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.5rem;
+     }
+     .contanier .home .home-container .paragrafo {
+      font-size: 10px;
+     }
+     .conteudo-modal {
+      width: 800px;
+     }
+}
+
+@media (max-width: 561px){
+  .modal .conteudo-modal .video-modal  {
+    width: 500px;
+ }
+}
+
+@media (max-width: 498px){
+  .contanier .btn-home {
+     width: 25%;
+     height: 20%;
+  }
+}
+
+@media (max-width: 488px){
+  .skins .botton-carousel {
+    gap: 5px;
+  }
+}
+
+@media (max-width: 425px){
+      .home .home-contanier .Katarina {
+          height: 350px;
+          width: 400px;
+      }
+
+      .conteudo-modal {
+        width: 425px;
+       }
+
+      .modal .conteudo-modal .video-modal  {
+         height: 220px;
+         width: 400px;
+      }
+
+      .home .paragrafo {
+        font-size: 18px;
+        width: 60%;
+      }
+
+      .contanier .btn-home {
+       height: 35px;
+       width: 28%;
+      }
+      .skins .carousel{
+       width: 420px;
+       height: 380px;
+       margin: 10px 15px;
+      }
+      .skins .carousel .titulo-skin {
+        font-size: 20px;
+      }
+      .skins .botton-carousel {
+        gap: 6px;
+      }
+      
+      .contanier-historia .adaga-historia {
+        width: 60%;
+      }
+
+      .habilidade .contanier-habilidade h1 {
+        font-size: 3rem;
+      }
+}
+
+@media (max-width: 375px){
+  .modal .conteudo-modal .video-modal {
+    height: 200px;
+    width: 360px;
+  }
+
+  .skins .carousel{
+    width: 360px;
+    height: 380px;
+   }
+   .skins .botton-carousel {
+    gap: 4px;
+    
+  }
+}
+
+@media (max-width: 320px){
+    .home .home-contanier .Katarina {
+     height: 350px;
+     width: 390px;
+    }
+    .cabecalho .navegacao-container input:checked ~ ul.menu {
+      width: 82%;
+    }
+    .contanier .btn-home {
+      width: 30%;
+    }
+
+    .skins .carousel {
+      width: 340px;
+      height: 320px;
+      margin-left: 50px;
+    }
+
+    .skins .botton-carousel {
+      gap: 5px;
+      margin-left: 60px;
+    }
+    .contanier-historia .adaga-historia {
+      width: 100%;
+    }
+    .historia-katarina {
+      margin-left: 50px;
+    }
+
+    .painel-card-social {
+      margin-left: 50px;
+    }
+}

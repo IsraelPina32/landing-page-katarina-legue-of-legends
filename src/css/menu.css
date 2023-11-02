@@ -1,0 +1,123 @@
+.cabecalho .navegacao-container  nav .menu li a  {
+    display: flex;
+}
+
+.cabecalho .navegacao-container .menu-animacao {
+    display: none;
+    width: 60px;
+    height: 60px;
+    align-self: flex-end;
+}
+
+.cabecalho .navegacao-container  nav label {
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho .hambuguer {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 2px;
+    top: 29px;
+    left: 15px;
+    transition: 0.5s ease-in-out;
+    background-color: #DC143C;
+}
+
+.cabecalho .hambuguer:before,
+.cabecalho .hambuguer:after {
+    content: '';
+    display: block;
+    background-color: #DC143C;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 0.2s ease-in-out;
+}
+
+.cabecalho .hambuguer:before {
+    top: -10px;
+}
+
+.cabecalho .hambuguer:after {
+    bottom: -10px;
+}
+
+.cabecalho input {
+    display: none;
+}
+
+.cabecalho  input:checked ~ label .hambuguer {
+    transform: rotate(45deg);
+}
+
+.cabecalho input:checked ~ label .hambuguer:before {
+    transform: rotate(95deg);
+    top: 0;
+}
+
+.cabecalho input:checked ~ label .hambuguer:after {
+    transform: rotate(95deg);
+    bottom: 0;
+}
+
+@media (max-width: 900px){
+    .cabecalho .menu-fixo {
+        justify-content: flex-end;
+        height: 7%;
+    }
+    .cabecalho .menu-fixo .navegacao-container .menu  {
+        display: none;
+    }
+
+    .cabecalho .navegacao-container .menu-animacao {
+        display: block;
+    }
+
+    .cabecalho .navegacao-container input:checked ~ ul.menu {
+        display: block;
+        background-color: #DC143C
+    }
+
+    .cabecalho .navegacao-container  nav {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        z-index: 1;
+    }
+
+    .cabecalho .logo {
+       display: none;
+    }
+    .cabecalho .navegacao-container nav ul.menu li a  {
+        margin: 18px;
+    }
+
+    .cabecalho .navegacao-container  nav .menu {
+        padding: 7px;
+    }
+    
+    .cabecalho .navegacao-container nav ul.menu {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media(max-width: 425px){
+    .cabecalho .navegacao-container  nav {
+        right: 5px;
+    }
+}
+
+@media(max-width: 320px){
+    .cabecalho .navegacao-container .menu-animacao {
+        width: 95px;
+    }
+
+    .cabecalho .navegacao-container  nav {
+        right: -50px;
+    }
+}
+
+

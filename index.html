@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Katarina Site">
+
+    <link rel="shortcut icon" href="./src/img/Katarina.icon.jpg" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto+Condensed:wght@300&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans&family=Poppins:wght@300;400;500&family=Roboto+Condensed:wght@300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="stylesheet" href="./src/css/menu.css">
+
+    <script src="./src/js/index.js" defer></script>
+
+    <title>Katarina-Site</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="menu-fixo">
+            <div class="navegacao-container">
+                <a href="#contato">
+                    <img src="./src/img/Katarina.LOGO2.png" alt="Logo-Katarina" class="logo">
+                </a>
+                <nav>
+                    <input type="checkbox" id="menu-hambuguer">
+                    <label for="menu-hambuguer">
+                        <div class="menu-animacao">
+                            <span class="hambuguer"></span>
+                        </div>
+                    </label>
+                    <ul class="menu" type="none">
+                        <li><a href="#home">Home.</a></li>
+                        <li><a href="#skins">Skins</a></li>
+                        <li><a href="#historia">Historia</a></li>
+                        <li><a href="#habilidade">Habilidades</a></li>
+                        <li><button id="botao-alterar-tema"><img src="./src/img/sun.png" alt="Foto do sol"
+                                    class="imagem-botao"></button></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!---------FIM DO HEADER------->
+
+    <main>
+        <div class="contanier">
+            <div class="home" id="home">
+                <div class="home-contanier">
+                    <h1>Katarina</h1>
+                    <div class="linha"></div>
+                    <div class="linha"></div>
+                    <img src="./src/img/Katarina-Perfil.png" alt="Katarina" class="Katarina">
+                    <button class="btn-home">clique aqui</button>
+                    <p class="paragrafo">Mesmo que tudo esteja difícil, desistir é o pior caminho, lute, insista naquilo que deseja, pois
+                        se
+                        você ficar apenas no chão, ira demonstrar fraqueza aos teus inimigos, com força e dedicação,
+                        conseguirás alcançar teus objetivos</p>
+                </div>
+            </div>
+            <div class="modal">
+                <div class="conteudo-modal">
+                    <span class="fechar-modal">X</span>
+                    <iframe width="560" height="315" id="video" src="https://www.youtube-nocookie.com/embed/Kxd_Md9jbi0" class="video-modal"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <!-------------FIM DO HOME--------->
+
+        <div class="skins" id="skins">
+            <h1>Skins</h1>
+            <div class="linha"></div>
+            <div class="linha"></div>
+            <div class="carousel">
+                <button class="botton-left">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" class="arrow"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/></svg>
+                </button>
+                <img class="image ative" src="./src/img/KatarinaSkin1.jpg" alt="Katarina skin 1">
+                <h2 class="titulo-skin open">Katarina Skin Padrão 520 RP</h2>
+                <img class="image" src="./src/img/KatarinaSkin2.jpg" alt="Katarina skin 2">
+                <h2 class="titulo-skin">Katarina Skin Mercenária 975 RP</h2>
+                <img class="image" src="./src/img/KatarinaSkin3.jpg" alt="Katarina skin 3">
+                <h2 class="titulo-skin">Katarina Skin Árbitra 975 RP</h2>
+                <img class="image" src="./src/img/KatarinaSkin4.jpg" alt="Katarina skin 4">
+                <h2 class="titulo-skin">Katarina Águas de Sentina 975 RP</h2>
+                <img class="image" src="./src/img/KatarinaSkin5.jpg" alt="Katarina skin 5">
+                <h2 class="titulo-skin">Katarina Gatinha 750 RP</h2>
+                <img class="image" src="./src/img/Katarinaskin6.jpg" alt="Katarina skin 6">
+                <h2 class="titulo-skin">Katarina Comandante 750 RP</h2>
+                <img class="image" src="./src/img/KatarinaSkin7.jpg" alt="Katarina skin 7">
+                <h2 class="titulo-skin">Katarina Tempestade de Areia 975 RP</h2>
+                <img class="image" src="./src/img/KatarinaSkin8.jpg" alt="Katarina skin 8">
+                <h2 class="titulo-skin">Katarina Noite Infeliz 975 RP</h2>
+                <img class="image" src="./src/img/KatarinaSkin9.jpg" alt="Katarina skin 9">
+                <h2 class="titulo-skin">Katarina Reinos Combatentes 975 RP</h2>
+                <img class="image" src="./src/img/KatarinaSkin10.jpg" alt="Katarina skin 10">
+                <h2 class="titulo-skin">Projeto: Katarina 1350 RP</h2>
+                <img class="image" src="./src/img/KatarinaSkin11.jpg" alt="Katarina skin 11">
+                <h2 class="titulo-skin">Katarina Jurada de Morte 1350 RP</h2>
+                <img class="image" src="./src/img/KatarinaSkin12.jpg" alt="Katarina skin 12">
+                <h2 class="titulo-skin">Katarina Academia de Batalha 1350 RP</h2>
+                <img class="image" src="./src/img/KatarinaSkin13.jpg" alt="Katarina skin 13">
+                <h2 class="titulo-skin">Katarina Lua Sangrenta 1350 RP</h2>
+                <img class="image" src="./src/img/KatarinaSkin14.jpg" alt="Katarina skin 14">
+                <h2 class="titulo-skin">Katarina Rainha de Batalha 1820 RP</h2>
+                <img class="image" src="./src/img/KatarinaSkin15.jpg" alt="Katarina skin 15">
+                <h2 class="titulo-skin">Katarina Velho Oeste 1350 RP</h2>
+                <img class="image" src="./src/img/KatarinaSkin16.jpg" alt="Katarina skin 16">
+                <h2 class="titulo-skin">Katarina Corte das Fadas 1350 Rp</h2>
+                <img class="image" src="./src/img/KatarinaSkin17.jpg" alt="Katarina skin 17">
+                <h2 class="titulo-skin">Katarina Corte das Fadas Presgtígio</h2>
+                 
+                <button class="botton-right">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" class="arrow"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>
+                </button> 
+            </div>
+            <div class="botton-carousel">
+                <!-- <button class="button selection"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button> -->
+            </div>
+        </div>
+        <!------------------FIM DAS SKINS-------------------->
+
+        <div class="historia" id="historia">
+            <div class="contanier-historia">
+                <h1>Historia</h1>
+                <div class="linha"></div>
+                <h2 class="historia-titulo">KATARINA</h2>
+                <h4 class="historia-subtitulo">A LÂMINA SINISTRA</h4>
+                <div class="linha-subtitulo"></div>
+                <img src="./src/img/adaga-katarina.gif" alt="adaga da Katarina" class="adaga-historia">
+                <p class="historia-katarina">Nascida em uma das famílias nobres mais respeitadas de Noxus, Katarina Du
+                    Couteau já se encontrava em uma posição elevada acima de qualquer um ainda na tenra idade. Enquanto
+                    sua
+                    irmã mais nova, Cassiopeia, puxou o lado politicamente brilhante de sua mãe, Katarina era em tudo a
+                    cara
+                    do pai. Foi seu pai, o astuto General Du Couteau, quem a incentivou a aprender o caminho da lâmina e
+                    a
+                    cortar seu caminho através dos inimigos do império não com brutalidade descontrolada, mas com
+                    precisão
+                    mortal. Ele era um professor severo com muitos pupilos e notoriamente difícil de impressionar.</p>
+                <p class="historia-katarina">Dessa forma, a infância de Katarina, que foi praticamente inexistente, teve
+                    pouco espaço para carinho ou descanso. Ela passou cada minuto aprimorando a si mesma para se tornar
+                    a
+                    arma suprema, testando sua resistência, sua destreza e sua tolerância à dor. Ela roubou venenos dos
+                    boticários menos respeitáveis da cidade, testando sua eficácia em minúsculos incrementos nela mesma,
+                    aumentando sua resistência gradualmente enquanto ela catalogava seus efeitos. Ela escalou as torres
+                    mais
+                    altas na calada da noite, invisível a todos.</p>
+                <p class="historia-katarina"> E ansiava cada vez mais em fazer sua parte por Noxus e pela oportunidade
+                    de
+                    demonstrar suas forças escondidas a serviço do império e do trono.</p>
+                <p class="historia-katarina">
+                    Seu primeiro alvo foi a mando direto de seu pai, enquanto estava acampado com suas tropas na véspera
+                    de
+                    uma das inumeráveis invasões no oeste… Ela devia assassinar um oficial no exército inimigo, um
+                    ninguém
+                    de família pobre chamado Demetrius.
+                </p>
+                <p class="historia-katarina">
+                    Katarina ficou furiosa. Ela não havia treinado por toda sua vida para ter seus talentos
+                    desperdiçados em
+                    um qualquer que mal conseguia usar uma espada! Ele não estava a sua altura. Em vez de seguir suas
+                    ordens, Katarina se esgueirou pelo acampamento inimigo e cortou a garganta do comandante inimigo
+                    enquanto ele dormia. Foi uma execução perfeita. Ela traria uma vitória fácil, e glória para Noxus. E
+                    certamente deixaria seu pai orgulhoso.
+                </p>
+                <p class="historia-katarina">
+                    Mas, ao amanhecer, com seu rosto borrado por cinzas, Demetrius, o herói vingador, liderou um ataque
+                    enlouquecido pelo acampamento de seu pai. Dúzias de soldados noxianos foram massacrados, junto da
+                    comitiva pessoal do general. O próprio pai de Katarina quase não escapou com vida.
+                </p>
+                <p class="historia-katarina">
+                    Ele estava mais do que furioso, recusando-se a sequer olhar nos olhos de sua filha. Ela o humilhara,
+                    assim como o nome de sua família. Os grandes assassinos não buscam reconhecimento ou glória, ele a
+                    lembrou. Eles não esperam ocupar um espaço de honra como braço direito de seu mestre.
+                </p>
+                <p class="historia-katarina">
+                    Derrotada, Katarina enveredou para os ermos, sozinha. Ela completaria a missão a qual deveria ter
+                    cumprido. Demetrius pagaria com sua própria vida. Mesmo assim, ela não conseguia parar de se
+                    questionar.
+                    Será que ela conseguiria se perdoar? Como ela havia sido tão tola?
+                </p>
+                <p class="historia-katarina">
+                    Por causa do fracasso de Katarina, General Du Couteau havia enviado outro de seus discípulos para
+                    executá-la; um pobre-diabo sem nome trazido de uma das guildas de assassinos menores. Mas, mesmo com
+                    sangue escorrendo por seu rosto, os anos de treinamento rigoroso tomaram conta de Katarina e suas
+                    lâminas estavam em suas mãos em instantes.
+                </p>
+                <p class="historia-katarina">
+                    Seis horas depois, ela jogou a cabeça cortada de Demetrius aos pés de seu pai.
+                </p>
+                <p class="historia-katarina">
+                    Ela disse ao General que chegou a pensar em cortar a cabeça dele no lugar, mas que no fim decidiu
+                    que
+                    ele havia feito a escolha certa em ordenar que a matassem, mesmo que ela odiasse o admitir. Ela
+                    falhara.
+                    Não só como uma assassina, ou como filha, mas como uma noxiana...
+                </p>
+                <p class="historia-katarina">
+                    E o fracasso precisa ter consequências. Ela passou os dedos pelo corte profundo no seu olho esquerdo
+                    e
+                    pensou no preço que outros pagaram por sua arrogância.
+                </p>
+                <p class="historia-katarina">
+                    Ela sabia que perdera o respeito de seu pai, e jamais o recuperaria. Ele criaria outros para ocupar
+                    seu
+                    lugar, somente para humilhá-la. Ainda assim, ela jurou se redimir, sem importar o custo, para
+                    dedicar
+                    seus talentos novamente ao império e se tornar a arma sinistra que ela sempre quis ser..
+                </p>
+            </div>
+        </div>
+        <!-------FIM DA HISTORIA--------->
+
+        <div class="habilidade" id="habilidade">
+            <div class="contanier-habilidade">
+                <h1>Habilidades</h1>
+                <div class="linha"></div>
+                <div class="habilidade-katarina">
+                    <img src="./src/img/habilidade_Passiva.jpg" alt="Passiva" class="habilidade-skills">
+                    <span class="skills">Passive</span>
+                    <h2 class="titulo-skills">VORACIDADE
+                    </h2>
+                    <p class="descricao-skills">Os Tempos de Recarga de Katarina são reduzidos drasticamente sempre que
+                        um Campeão que ela havia causado dano recentemente morrer. Se apanhar uma Adaga, Katarina a usa
+                        para cortar todos os inimigos próximos, causando Dano Mágico.</p>
+                    <img src="./src/img/habilidade.Q.webp" alt="Q" class="habilidade-skills"></img>
+                    <span class="skills">Q</span>
+                    <h2 class="titulo-skills">LÂMINA SALTITANTE</h2>
+                    <p class="descricao-skills">Katarina arremessa uma Adaga no alvo.Ela salta em inimigos próximos
+                        antes de ricochetear e cair no chão.</p>
+                    <img src="./src/img/habilidade_W.jpg" alt="W" class="habilidade-skills"></img>
+                    <span class="skills">W</span>
+                    <h2 class="titulo-skills">PREPARAÇÃO</h2>
+                    <p class="descricao-skills">Katarina recebe um impulso de Velocidade de Movimento e joga uma Adaga
+                        para cima.</p>
+                    <img src="./src/img/habilidade_E.jpg" alt="E" class="habilidade-skills"></img>
+                    <span class="skills">E</span>
+                    <h2 class="titulo-skills">SHUNPO</h2>
+                    <p class="descricao-skills">Katarina desloca-se em direção ao alvo, golpeando-o caso seja inimigo ou
+                        golpeando o inimigo mais próximo caso não seja.</p>
+                    <img src="./src/img/habilidade_R.webp" alt="R" class="habilidade-skills"></img>
+                    <span class="skills">R</span>
+                    <h2 class="titulo-skills">LÓTUS DA MORTE</h2>
+                    <p class="descricao-skills">Katarina gira em torno de si mesma, disparando adagas muito rapidamente
+                        e causando muito Dano Mágico nos 3 Campeões inimigos mais próximos</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer class="painel-card-social">
+        <div class="contato" id="contato">
+            <ul class="card-social-menu">
+                <li>
+                    <a href="https://github.com/IsraelPina32" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="2.9em"
+                            viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                        </svg>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.instagram.com/israelcdev41/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="2.9em"
+                            viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                        </svg>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/in/israel-coimbra-de-pina-65b258231/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="2.9em"
+                            viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-------FIM DA CONTATOO----------->
+</body>
+
+</html>
