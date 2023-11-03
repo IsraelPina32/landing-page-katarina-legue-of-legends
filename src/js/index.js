@@ -24,10 +24,11 @@ BotaoFechaModal.addEventListener("click", () => {
 const imagens = document.querySelectorAll(".image");
 const botaoLeft = document.querySelector(".botton-left");
 const botaoRigth = document.querySelector(".botton-right");
+let imagensTotal = imagens.length;
 let contadora = 0;
 
 botaoRigth.addEventListener("click", () => {
-    if(contadora < imagens.length - 1){
+    if(contadora < imagensTotal - 1){
         imagens[contadora].classList.remove("ative");
         imagens[contadora].nextElementSibling.classList.remove("open");
         contadora++;
