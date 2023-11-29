@@ -34,7 +34,6 @@ botaoRigth.addEventListener("click", () => {
         contadora++;
         imagens[contadora].classList.add("ative");
         imagens[contadora].nextElementSibling.classList.add("open");
-        console.log(contadora);
     }else{
         alert("As imagens chegaram ao limite!! .Por favor use o outro Botão.")
     }
