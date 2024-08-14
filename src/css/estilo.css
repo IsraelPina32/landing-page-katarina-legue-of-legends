@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 ul {
     list-style: none;
 }
@@ -45,7 +49,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* position: fixed; */
     padding: 15px;
 }
 .cabecalho{
@@ -211,18 +214,20 @@ p{
     visibility: visible;
 }
      /*-----Skins----*/
-.skins, .carousel {
+.skins {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
     margin: 0 auto;
-    padding: 25px; 
+    padding: 1rem;
+    height: 100vh;
 }
 
-.titulo-skin{
+
+ .swiper-slide .titulo-skin{
     color: #DC143C;
-    display: none;
     padding: 10px;
     object-fit: cover;
     transition: 0.2s ease-in-out;
@@ -231,57 +236,22 @@ p{
     font-family: 'Open Sans', cursive;
 }
 
-.botton-carousel{
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    align-items: center;
-    padding: 10px;
-    margin: 5px;
-}
-
-.carousel .botton-right, 
-.carousel .botton-left {
-    background: none;
-    fill: #DC143C;
-	width: 40px;
-	height: 40px;
-    margin: 15px;
-	border-radius: 50%;
-	border: 2px solid transparent;
-	cursor: pointer;
-    transition: 0.4s ease-in-out;
-}
-
-.carousel .botton-right:hover, 
-.carousel .botton-left:hover{ 
-    transform: scale(1.5);
-}
-
-
-
-
-.carousel .image{
+.swiper {
     max-width: 850px;
-    height: 90%;
-    width: 100%;
-    object-fit: cover;
-    animation: mudarImage 0.4s;
-    display: none;
-    border-radius: 20px;
+    max-height: 600px;
     margin-bottom: 20px;
     transition: 0.2s ease-in-out;
-    scroll-behavior: smooth;
-    border: 1px solid #937341;
+ 
 }
 
-.carousel .titulo-skin.open{
-    display: block;
+.swiper .swiper-wrapper .swiper-slide .image {
+    object-fit: cover;
+    height: 90%;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid #937341;
 }
- 
-.carousel .image.ative{
-    display: block;
-}
+
 
 .historia{
     display: flex;
@@ -302,6 +272,7 @@ p{
 
 .historia-katarina{
     color: #937341;
+    text-align: center;
     width: 85%;
     padding: 0 0 8px;
     margin: 10px;
@@ -425,40 +396,3 @@ p{
     border-bottom: 1px solid rgb(5, 170, 115);
 
 }
-
-
- @keyframes mudarImage {
-    from{
-        margin-left: 10%;
-    }
-    left{
-        margin: right -100px;;
-    }  
-} 
-
-@keyframes mudarImage {
-    from{
-        margin-left: -10%;
-    }
-    left{
-        margin: left -100px;;
-    }  
-}
-
-@keyframes mudarTexto {
-    from{
-        margin-left: -10%;
-    }
-    left{
-        margin: left -100px;;
-    }  
-}
-
- @keyframes mudarTexto {
-    from{
-        margin-left: 10%;
-    }
-    to{
-        margin-right: -500;
-    }
-} 
