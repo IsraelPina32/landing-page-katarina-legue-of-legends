@@ -20,7 +20,7 @@ BotaoFechaModal.addEventListener("click", () => {
 });
 
 
-/// Lib 
+/// Libary the swiper
 
 var swiper = new Swiper(".card-slider", {
   grabCursor: true,
