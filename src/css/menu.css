@@ -77,14 +77,14 @@
 
     .cabecalho .navegacao-container input:checked ~ ul.menu {
         display: block;
-        background-color: #DC143C
+        background-color: darkred;
+        border-radius: 5%;
     }
 
     .cabecalho .navegacao-container  nav {
         position: absolute;
         top: 10px;
         right: 20px;
-        z-index: 1;
     }
 
     .cabecalho .logo {

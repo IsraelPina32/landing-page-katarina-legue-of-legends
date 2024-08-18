@@ -2,79 +2,26 @@
 const video = document.getElementById("video");
 const botaoGameplay = document.querySelector(".btn-home");
 const modal = document.querySelector(".modal");
-// const linkVideo = video.src;
-// function AlternaModal() {
-//   modal.classList.toggle("aberto");
-// }
+const linkVideo = video.src;
+function AlternaModal() {
+  modal.classList.toggle("aberto");
+}
 
-// botaoGameplay.addEventListener("click", () => {
-//   AlternaModal();
-//   video.setAttribute("src", linkVideo);
-// });
+botaoGameplay.addEventListener("click", () => {
+  AlternaModal();
+  video.setAttribute("src", linkVideo);
+});
 
-// const BotaoFechaModal = document.querySelector(".fechar-modal");
+const BotaoFechaModal = document.querySelector(".fechar-modal");
 
-// BotaoFechaModal.addEventListener("click", () => {
-//   AlternaModal();
-//   video.setAttribute("src", linkVideo);
-// });
-
-////--- button de selection para skins da Katarina--///
-
-// const imagens = document.querySelectorAll(".image");
-// const botaoLeft = document.querySelector(".botton-left");
-// const botaoRigth = document.querySelector(".botton-right");
-// let imagensTotal = imagens.length;
-// let contadora = 0;
-
-// botaoRigth.addEventListener("click", () => {
-//   if (contadora < imagensTotal - 1) {
-//     imagens[contadora].classList.remove("ative");
-//     imagens[contadora].nextElementSibling.classList.remove("open");
-//     contadora++;
-//     imagens[contadora].classList.add("ative");
-//     imagens[contadora].nextElementSibling.classList.add("open");
-//   } else {
-//     alert("As imagens chegaram ao limite!! .Por favor use o outro Botão.");
-//   }
-// });
-
-// botaoLeft.addEventListener("click", () => {
-//   if (contadora > 0) {
-//     imagens[contadora].classList.remove("ative");
-//     imagens[contadora].nextElementSibling.classList.remove("open");
-//     contadora--;
-//     imagens[contadora].classList.add("ative");
-//     imagens[contadora].nextElementSibling.classList.add("open");
-//   } else {
-//     alert("As imagens chegaram ao limite!! .Por favor use o outro Botão.");
-//   }
-// });
+BotaoFechaModal.addEventListener("click", () => {
+  AlternaModal();
+  video.setAttribute("src", linkVideo);
+});
 
 
+/// Lib 
 
-// logica antiga
-
-// const bottonCarousel = document.querySelectorAll('.button');
-// const imagens = document.querySelectorAll('.image');
-// const titulo_skin = document.querySelectorAll('.titulo-skin');
-// bottonCarousel.forEach((bottun,indice) =>{
-//     bottun.addEventListener('click', () =>{
-
-//         const buttonSelection = document.querySelector('.selection');
-//         buttonSelection.classList.remove('selection');
-//         bottun.classList.add('selection');
-
-//         const ImageAtive = document.querySelector('.ative');
-//         const TituloAtive = document.querySelector('.open')
-
-//         ImageAtive.classList.remove('ative');
-//         imagens[indice].classList.add('ative');
-
-//         TituloAtive.classList.remove('open');
-//         titulo_skin[indice].classList.add('open');
-//     })
-// })
 var swiper = new Swiper(".card-slider", {
   grabCursor: true,
   effect: "creative",
