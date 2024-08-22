@@ -1,30 +1,18 @@
 # Projeto Katarina Legue of Legends
 
-
-Site web dedicado para o personagem Katarina de Legue of Legends. 
-
-
 Dedicated website for the character Katarina from Legue of Legends.
 
 
 
-<img src="./src/img/Animação.gif" alt="katarina-gif" height="500px" width="700px"> 
+<img src="./src/img/Animação.gif" alt="katarina-gif" height="400px" width="800px"> 
 
 
-## Tecnologias utilizadas, Technologies used
-
-- HTML
-- CSS
-- Javascript
-
-## O que eu Aprendir com essas Tecnologias
-
-Learning a lot of Javascript and CSS concepts are quite complex for someone who is starting to study CSS for classes, animations and divs.
-in javascript it was quite challenging because learning ForEach,addEventListener.
-
-o Maior dificil concerteza foi o javascript onde a aprendir o scroll, a fazer um carrousel com imagens,paragrafos, como bota uma classe no javascript, como bota uma id no javascript, e de como usar o addEventListener no botão de click. mas concerteza foi organiza todas essas informações e não errar nenhuma vingula!
-
-Já no css não muita coisa apenas o basico de um progamador front end iniciante e fazer animações com keyframes.
+## Technologies used
+<div align='center'>
+   <img align='center' height='60' width='85' title='html' alt='rust' src='https://github.com/bush1D3v/101acessorios_api/assets/133554156/b90e29a7-31f7-4a92-978f-81b8240eb148' /> &nbsp;
+   <img align='center' height='60' width='60' title='css' alt='actix' src='https://github.com/bush1D3v/101acessorios_api/assets/133554156/3b9ec599-9db6-48b2-afed-9f336f4f7bef' /> &nbsp;
+   <img align='center' height='65' width='65' title='javascript' alt='nginx' src='https://github.com/bush1D3v/101acessorios_api/assets/133554156/7a445df4-b341-4ab0-97d5-0084638dec99' /> &nbsp;
+</div>
 
 ## What I Learned From These Technologies
 
