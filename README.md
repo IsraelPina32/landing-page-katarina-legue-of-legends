@@ -1,15 +1,11 @@
-# Projeto Katarina Legue of Legends
+# Project Katarina Legue of Legends Web
 
 Dedicated website for the character Katarina from Legue of Legends.
 
-
-
 <img src="./src/img/Animação.gif" alt="katarina-gif" height="400px" width="800px"> 
 
-
-## Technologies used
-
 <div align="center">
+    ##  👩🏻‍💻 Technologies used
     <h2> 💻 Skils  Frontend: </h2>
       <img width="500px"  src="https://skillicons.dev/icons?i=html,css,javascript,git" />
   </div>
