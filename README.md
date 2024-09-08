@@ -6,7 +6,7 @@
     </p>
 </div>
   <div style="margin: auto;display: flex;">
-    <img  src="./src/img/animation-katarina-mobile.gif" alt="katarina-gif"  width="200px"> 
+    <img  src="./src/img/animation-katarina-mobile.gif" alt="katarina-gif"  width="500px"> 
   </div>
 
 <div align="center">
