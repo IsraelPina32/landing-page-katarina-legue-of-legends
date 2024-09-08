@@ -1,40 +1,30 @@
-# Projeto Katarina Legue of Legends
+
+  # Project Katarina Legue of Legends Web
+<div align="center">
+    <p>
+       Dedicated website for the character Katarina from Legue of Legends.
+    </p>
+    <img src="./src/img/Animação.gif" alt="katarina-gif" height="400px" width="800px"> 
+</div>
+
+<div align="center">
+    <h2>🛠️ Technologies and Tools Used</h2>
+      <img width="400px"  src="https://skillicons.dev/icons?i=html,css,javascript,git" />
+  </div>
+
+<div align="center">
+  <h2>What I Learned From These Technologies.</h2> 
+   I've learned a lot about studying of layouts, clean code , code structure , folders. The Most challenging part of the project was dealing with the responsive mobile. where i adapted my elements for small screens like ( 320px and 370px ).
+    I use my frist aplication of libary the name is Swiper, for my carrosel colections de imagens skins.
+</div>
+
+## 🔍 About the Project
+
+This project has a focus on developing aplications for the Front-end, such as responsive for all desktop, mobile and tablet, clean code , the search for new modern layouts and with "possible API consumiption" amd start in the future for back end but the project is lookings to use new tools to develop strong front-end skills
 
 
-Site web dedicado para o personagem Katarina de Legue of Legends. 
+## 🏗 Structure and Architecture
 
-
-Dedicated website for the character Katarina from Legue of Legends.
-
-
-
-<img src="./src/img/Animação.gif" alt="katarina-gif" height="500px" width="700px"> 
-
-
-## Tecnologias utilizadas, Technologies used
-
-- HTML
-- CSS
-- Javascript
-
-## O que eu Aprendir com essas Tecnologias
-
-Learning a lot of Javascript and CSS concepts are quite complex for someone who is starting to study CSS for classes, animations and divs.
-in javascript it was quite challenging because learning ForEach,addEventListener.
-
-o Maior dificil concerteza foi o javascript onde a aprendir o scroll, a fazer um carrousel com imagens,paragrafos, como bota uma classe no javascript, como bota uma id no javascript, e de como usar o addEventListener no botão de click. mas concerteza foi organiza todas essas informações e não errar nenhuma vingula!
-
-Já no css não muita coisa apenas o basico de um progamador front end iniciante e fazer animações com keyframes.
-
-## What I Learned From These Technologies
-
-Learning a lot of Javascript and CSS concepts are quite complex for someone who is starting to study CSS for classes, animations and divs.
-in javascript it was quite challenging because learning ForEach,addEventListener.
-
-
-The most difficult course was javascript where to learn the scroll, to make a carousel with images, paragraphs, how to put a class in javascript, how to put an id in javascript, and how to use the addEventListener on the click button. but surely it was organized all this information and not miss any vingula!
-
-As for css, not much, just the basics of a beginner front end programmer and making animations with keyframes.
-
+The project follows the principles of **clean code**, and the code was organized according to the principles of **modularity**.
 
 
