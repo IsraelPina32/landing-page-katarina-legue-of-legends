@@ -6,8 +6,8 @@
     </p>
 </div>
   <div style="margin: auto;display: flex;">
-    <img  src="./src/img/animation-katarina-desktop.gif" alt="katarina-gif" height="400px" width="300px"> 
-    <img  src="./src/img/animation-katarina-mobile.gif" alt="katarina-gif" height="300px" width="200px"> 
+    <img  src="./src/img/animation-katarina-desktop.gif" alt="katarina-gif" width="300px"> 
+    <img  src="./src/img/animation-katarina-mobile.gif" alt="katarina-gif"  width="200px"> 
   </div>
 
 <div align="center">
