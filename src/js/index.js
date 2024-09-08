@@ -19,8 +19,6 @@ BotaoFechaModal.addEventListener("click", () => {
   video.setAttribute("src", linkVideo);
 });
 
-func
-
 /// Libary the swiper
 
 var swiper = new Swiper(".card-slider", {
