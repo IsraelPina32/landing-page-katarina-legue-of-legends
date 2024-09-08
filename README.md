@@ -10,8 +10,9 @@
     <h2> 💻 Skils  Frontend: </h2>
       <img width="400px"  src="https://skillicons.dev/icons?i=html,css,javascript,git" />
   </div>
-## What I Learned From These Technologies.
+
 <div align="center">
+  <h2>What I Learned From These Technologies.</h2> 
   Learning a lot of Javascript and CSS concepts are quite complex for someone who is starting to study CSS for classes, animations and divs.
   in javascript it was quite challenging because learning ForEach,addEventListener.
 </div>
