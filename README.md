@@ -4,9 +4,11 @@
     <p>
        Dedicated website for the character Katarina from Legue of Legends.
     </p>
+   <img  src="./src/img/animation-katarina-desktop.gif" alt="katarina-gif" width="800px"> 
+    <img  src="./src/img/animation-katarina-mobile.gif" alt="katarina-gif"  width="500px"> 
 </div>
   <div style="margin: auto;display: flex;">
-    <img  src="./src/img/animation-katarina-mobile.gif" alt="katarina-gif"  width="500px"> 
+    
   </div>
 
 <div align="center">
