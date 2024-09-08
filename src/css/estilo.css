@@ -311,6 +311,7 @@ p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
     margin: 0 auto;
     flex-wrap: wrap;
 }
@@ -369,11 +370,10 @@ p{
 .painel-card-social  {
     height: 120px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 5px;
+    padding: 1rem;
 }
 
 .painel-card-social .card-social-menu {
