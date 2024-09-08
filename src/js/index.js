@@ -3,7 +3,7 @@ const video = document.getElementById("video");
 const botaoGameplay = document.querySelector(".btn-home");
 const modal = document.querySelector(".modal");
 const linkVideo = video.src;
-function AlternaModal() {
+const AlternaModal = () => {
   modal.classList.toggle("aberto");
 }
 
@@ -19,6 +19,7 @@ BotaoFechaModal.addEventListener("click", () => {
   video.setAttribute("src", linkVideo);
 });
 
+func
 
 /// Libary the swiper
 
