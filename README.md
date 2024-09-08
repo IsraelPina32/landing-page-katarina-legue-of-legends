@@ -14,8 +14,8 @@
 
 <div align="center">
   <h2>What I Learned From These Technologies.</h2> 
-  Learning a lot of Javascript and CSS concepts are quite complex for someone who is starting to study CSS for classes, animations and divs.
-  in javascript it was quite challenging because learning ForEach,addEventListener.
+   I've learned a lot about studying of layouts, clean code , code structure , folders. The Most challenging part of the project was dealing with the responsive mobile. where i adapted my elements for small screens like ( 320px and 370px ).
+    I use my frist aplication of libary the name is Swiper, for my carrosel colections de imagens skins.
 </div>
 
 ## 🔍 About the Project
