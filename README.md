@@ -1,3 +1,4 @@
+
   # Project Katarina Legue of Legends Web
 <div align="center">
     <p>
@@ -7,7 +8,7 @@
 </div>
 
 <div align="center">
-    <h2> 💻 Skils  Frontend: </h2>
+    <h2>🛠️ Technologies and Tools Used</h2>
       <img width="400px"  src="https://skillicons.dev/icons?i=html,css,javascript,git" />
   </div>
 
@@ -17,6 +18,13 @@
   in javascript it was quite challenging because learning ForEach,addEventListener.
 </div>
 
+## 🔍 About the Project
 
+This project has a focus on developing aplications for the Front-end, such as responsive for all desktop, mobile and tablet, clean code , the search for new modern layouts and with "possible API consumiption" amd start in the future for back end but the project is lookings to use new tools to develop strong front-end skills
+
+
+## 🏗 Structure and Architecture
+
+The project follows the principles of **clean code**, and the code was organized according to the principles of **modularity**.
 
 
