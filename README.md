@@ -7,9 +7,8 @@
 </div>
 
 <div align="center">
-    <p>👩🏻‍💻 Technologies used</p> 
     <h2> 💻 Skils  Frontend: </h2>
-      <img width="500px"  src="https://skillicons.dev/icons?i=html,css,javascript,git" />
+      <img width="400px"  src="https://skillicons.dev/icons?i=html,css,javascript,git" />
   </div>
 
 ## What I Learned From These Technologies
