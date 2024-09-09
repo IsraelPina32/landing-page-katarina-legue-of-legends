@@ -9,7 +9,7 @@
 
 <div style="margin: 1rem;display: flex;gap: 1.5rem;">
     <img src="./src/img/animação-katarina-mobile.gif" alt="katarina-gif" height="400px" width="200px"> 
-    <img src="./src/img/animation-katarina-desktop.gif" alt="katarina-gif" height="400px" width="600px"> 
+    <img src="./src/img/animation-katarina-desktop.gif" alt="katarina-gif" height="400px" width="700px"> 
 </div>
 
 <div align="center">
